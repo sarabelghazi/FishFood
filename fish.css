@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('fond.png');
+}
+header{
+    width: 1263px;
+    height: 180px;
+    background-color: #34B1B2;
+    margin-top: 40px;
+border-top: 4px solid #2f9696;
+border-bottom: 4px solid #2f9696;
+}
+.logo{
+    margin-left: 530px;
+}
+ul li{
+    display: inline;
+    
+     }
+ nav ul li a{
+text-decoration: none;
+padding-right: 20px;
+
+
+}
+a{
+    color: white;
+}
+nav{
+    text-align: center;
+    
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Slabo 27px', serif;
+    
+}
+.fishandships h2{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 40px;
+    font-weight: 500;
+    vertical-align: baseline;
+    color: rgb(102, 137,140);
+    margin-top: 30px;
+}
+.fishandships{
+   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(102, 137,140);
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 16px;
+    margin:   20px 350px 20px;
+}
+.fishandships p{
+    margin-top: 20px;
+}
+.platdujour{
+    display: flex;
+    justify-content: space-around;
+}
+.TODAY{
+   width: 760px;
+   height: 780px;
+   background-color: #D3EEEE;
+   margin-left: 50px;
+  }
+  .dishes{
+    display: flex;
+    justify-content:space-between ;
+    padding: 0 20px 40px 20px;
+  }
+    aside{
+        width: 308px;
+        height: 777px;
+        background-color: #34B1B2;
+        border: 4px solid rgb(102, 137,140);
+        margin-right: 30px;
+        padding-left: 10px;
+        position: relative;
+        margin-left: 5px;
+        
+    }
+.tlt{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 56px;
+    font-weight: 500;
+    color: rgb(102, 137,140);
+    margin-top: 20px;
+}
+.tlt span{
+    color: rgb(47,150,150);
+}
+.ingredient{
+    font-family: 'Slabo 27px', serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(102, 137, 140);
+    text-align: center;
+    vertical-align: baseline;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+.dishes img{
+    float: left;
+    border-radius: 50%;
+}
+.dishes p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(102, 137, 140);
+    padding-bottom: 20px;
+    
+}
+button{
+border: none;
+padding:10px ;
+color: white;
+background-color: #34B1B2;
+float: right;
+}
+.comments p{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    text-align: start;
+    margin: 5px;
+    font-size: 16px;
+    
+}
+.number1{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 10px;
+
+    
+}
+.news{
+    color: rgb(211, 238, 238);
+    font-size: 23px;
+}
+.comments img{
+    position: absolute;
+    right: -50px;
+    top: -50px;
+}
+aside img:hover{
+    transform: scale(1.1) rotate(43deg);
+    transition-property:transform;
+    transition-duration: 0.5s;
+
+}
+.comments{
+    width: 80%;
+    padding-top: 20px;
+}
+footer {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 500;
+}
+footer a{
+    color: rgb(61, 30, 61);
+    text-decoration: none;
+
+}
+h2{
+    color: white;
+}
+aside p{
+    margin-bottom: 50px;
+}
+.content{
+    overflow: auto;
+}
